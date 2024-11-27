@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using MediatR;
-using NTierArchitecture.Business.Features.Students.CreateStudent;
 using NTierArchitecture.Entities.Models;
 using NTierArchitecture.Entities.Repositories;
 
