@@ -4,9 +4,9 @@ using NTierArchitecture.Entities.Repositories;
 
 namespace NTierArchitecture.DataAccess.Repositories;
 
-internal sealed class ProductRepository : Repository<Product>, IProductRepository
+internal sealed class DepartmentRepository : Repository<Department>, IDepartmentRepository
 {
-    public ProductRepository(ApplicationDbContext context) : base(context)
+    public DepartmentRepository(ApplicationDbContext context) : base(context)
     {
     }
 }
